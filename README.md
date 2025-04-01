@@ -1,11 +1,39 @@
-This code implements a Hopfield network to denoise a grayscale image by learning from a clean reference image and iteratively updating pixel values based on the stored pattern.
+# Exploring Discrete Hopfield Network: A Practical Review
 
-**Observations and Conclusion:**
+## Overview
+This repository contains the implementation and analysis of the **Discrete Hopfield Network**, a type of recurrent artificial neural network used for associative memory. The project aims to provide a practical review of the Hopfield network, demonstrating its ability to store and recall patterns using energy minimization.
 
-It can be concluded that increasing the image size (e.g., from 100×100 to 150×150) improves the performance of the Hopfield network denoising by:
-1. Preserving More Details:
-2. Better Generalization:
-3. Reduced Information Loss:
-4. More Effective Hebbian Learning:
- 
-Also, denoising is improved when the Hopfield network is trained with multiple clean images. It is because it leads to a more generalized weight matrix that enhances noise removal compared to using a single reference image.
+## Features
+- Implementation of the **Discrete Hopfield Network** in Python
+- Pattern storage and retrieval using the Hopfield model
+- Noise tolerance and error correction analysis
+- Interactive demonstration of pattern convergence
+
+## Requirements
+Ensure you have the following dependencies installed:
+```bash
+pip install numpy matplotlib
+```
+
+## Usage
+Clone the repository:
+```bash
+git clone https://github.com/Amandeep1912/Exploring-Discrete-Hopfield-Network-A-practical-review.git
+cd Exploring-Discrete-Hopfield-Network-A-practical-review
+```
+
+Run the main script to see the Hopfield network in action:
+```bash
+python hopfield_network.ipynb
+```
+
+## How It Works
+1. The network is trained using Hebbian learning to store binary patterns.
+2. Given a noisy or incomplete input, the network iterates to converge to the closest stored pattern.
+
+## Example Output
+After running the script, you should see a visualization of stored and retrieved patterns.
+
+## References
+- Hopfield, J. J. (1982). "Neural networks and physical systems with emergent collective computational abilities."
+- Hinton, G. E. (1989). "Boltzmann Machines and Hopfield Networks."
