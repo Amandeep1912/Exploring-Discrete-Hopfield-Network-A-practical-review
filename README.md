@@ -33,7 +33,7 @@ python hopfield_network.ipynb
 
 ## Example Output
 After running the script, you should see a visualization of stored and retrieved patterns.
-
+![output image](https://github.com/Amandeep1912/Exploring-Discrete-Hopfield-Network-A-practical-review/blob/main/Output_Image.png)
 ## References
 - Hopfield, J. J. (1982). "Neural networks and physical systems with emergent collective computational abilities."
 - Hinton, G. E. (1989). "Boltzmann Machines and Hopfield Networks."
